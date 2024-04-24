@@ -6,7 +6,7 @@ Your task is to create angular application and fetch a list of actors with the f
 
 **Details:**
 
-1. Fetch the product data from the following API endpoint: https://swapi.dev/api/people.
+1. Fetch the product data from the following API endpoint: https://swapi.py4e.com/api/people/.
 
 2. Display the list of actors as cards. Each card should include the product name, height,birth_year and an "Detail" button.
 
