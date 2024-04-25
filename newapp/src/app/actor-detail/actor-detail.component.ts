@@ -7,9 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ActorDetailComponent implements OnInit {
   @Input() actor: any;
-
   constructor() { }
-
   ngOnInit(): void {
   }
+  
 }
