@@ -20,10 +20,12 @@ export class ActorListComponent implements OnInit {
       this.actors = data.results;
     });
   }
-
+  // selectActor(actor: Actor): void {
+  //   this.selectedActor = actor;
+  // }
   selectActor(actor: Actor): void {
     this.actorService.getActorDetails(actor.url).subscribe(data => {
-      this.selectedActor = data; 
+      this.selectedActor = data; // Update the selected actor with the details
     });
   }
   

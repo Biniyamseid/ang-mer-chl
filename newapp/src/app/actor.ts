@@ -43,3 +43,10 @@ export interface Actor {
     _id: string;
     __v: number;
   }
+
+  export interface Actorresp{
+    uid: string;
+    name: string;
+    url: string;
+
+  }

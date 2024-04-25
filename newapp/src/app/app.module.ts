@@ -8,6 +8,7 @@ import { ActorListComponent } from './actor-list/actor-list.component';
 import { ActorDetailComponent } from './actor-detail/actor-detail.component';
 import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 import { MatDialogModule } from '@angular/material/dialog';
+// import { ActorDetailComponent } from './actor-detail/actor-detail.component';
 
 @NgModule({
   declarations: [
